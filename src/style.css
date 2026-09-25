@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    padding: 10px;
+}
+.list{
+    margin-right: 200px;
+}
+.list ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    
+}
+
+.list li{
+    font-size: 14px;
+    color: grey;
+}
+
+.search-box{
+    display: block;
+    margin: 30px auto;
+    width: 750px;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.product{
+    width: 250px;
+    text-align: center;
+}
+
+.product img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.about{
+    margin-bottom: 20px;
+}
+.about h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about p{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.para{
+    padding: 20px;
+    font-size: 15px;
+    color: gray;
+}
