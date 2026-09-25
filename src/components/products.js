@@ -9,17 +9,17 @@ function Products() {
   return (
     <div class="container">
       <div class="product">
-        <img src={one}></img>
+        <img src={one} alt="Products"></img>
         <p>Fogg Sandal wood perfume, Long lasting 100ml</p>
       </div>
 
       <div class="product">
-        <img src={two}></img>
+        <img src={two} alt="Products"></img>
         <p>Fogg Sandal wood perfume, Long lasting 100ml</p>
       </div>
 
       <div class="product">
-        <img src={three}></img>
+        <img src={three} alt="Products"></img>
         <p>Fogg Sandal wood perfume, Long lasting 100ml</p>
       </div>
     </div>
